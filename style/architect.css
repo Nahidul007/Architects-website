@@ -182,5 +182,13 @@ main section{
     .features-container{
         flex-direction: column;
     }
+    .facts-container {
+        justify-items: center;
+    }
+
+    .features-img,
+    .facts-container {
+        grid-template-columns: 1fr;
+    }
 
 }
